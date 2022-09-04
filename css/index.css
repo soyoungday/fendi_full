@@ -1,0 +1,390 @@
+@charset "UTF-8";
+
+* { box-sizing: border-box;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: "맑은 고딕";
+}
+
+/* 공통 스타일 정의 */
+
+img {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.inner {
+    width: 1200px;
+    margin:0 auto;
+    position: relative;
+    min-width: 1200px;
+    border: none;
+}
+
+.main-text{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    z-index: 100; 
+}
+
+.main-text h3{color: #fff;}
+
+
+/* 버튼 공통 */
+.btn {
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: block;
+    transition: all 0.4s;
+    line-height: 15px;
+    margin:0 auto;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* 공통끝---------------------------------------------------------------------------------- */
+
+.active{width: 100%;/*height: 100vh;*/position: relative;}
+
+
+/* Header Area ------------------------------------------------------------------*/
+
+header {
+    width: 100%;
+    height: 170px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+header div.inner{height: 120px;}
+header div.inner h1{  width: 200px;
+    position: relative;
+    top: 35px;
+    bottom: 0;
+    margin: 0 auto;
+    margin-top: 0;}
+header div.inner h1 a{
+    position: absolute;
+}
+header div.inner h1 a img{
+    width: 200px;
+}
+
+/* main menu area */
+header ul.gnb{ 
+    position: absolute;
+    z-index: 10;
+    left: 320px;
+    top: 100px;
+}
+header ul.gnb li{
+    float: left;}
+header ul.gnb li a{ 
+    display: block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 400;
+    color: #fff;
+    transition: all 0.4s;}
+
+header ul.gnb li a:hover{    
+    text-decoration: underline;
+}
+
+
+
+/* main sub-menu-lift */
+header div.sub-menu-left{ }
+header div.sub-menu-left nav ul{
+    display: flex;
+    position: absolute;
+    left: 100px;
+    top: 35px;
+    line-height: 25px;
+    font-size:14px;
+    margin-left: 10px;
+}
+header div.sub-menu-lleftift nav ul li{ 
+    
+}
+header div.sub-menu-left nav ul li a{
+    color: #fff;
+    float: left;
+    width: 80px;
+    margin: 2px;
+    text-align: center;
+    
+}
+
+header div.sub-menu-left nav ul li a.map{  
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    margin: 0 auto;
+
+}
+
+
+/* main sub-menu-right */
+header div.sub-menu-right{}
+header div.sub-menu-right nav ul{
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 35px;
+}
+header div.sub-menu-right nav ul li{}
+header div.sub-menu-right nav ul li a{  
+    color: #fff;
+    float: right;
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    top: 35px;
+}
+header div.sub-menu-right nav ul li a img{}
+
+
+
+/* Main Visual  Area ------------------------------------------------------------------*/
+.main-visual{  
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.main-visual .inner .main-text{position: absolute; top: 650px; left: 0;z-index: 200; width: 100%;}
+.main-visual .inner .main-text h3{margin-bottom: 20px;}
+
+/* Main Slide */
+
+#slide{width: 800px;height: 350px;overflow: hidden;}
+
+/* 이미지width800 * 이미지장수4  = 3200*/
+#slide ul{width: 3200px;}
+
+.main-visual .main-slide{position: relative; height: 100%; background: #eee;margin: 0;padding: 0;}
+.main-visual .main-slide .swiper{/*position: absolute;top: 0; left: 0;*/ width: 100%; height: 100%;}
+.main-visual .main-slide .swiper .swiper-wrapper{width: 7680px;}
+.main-visual .main-slide .swiper-slide{
+    text-align: center;
+    font-size: 18px; 
+    background: #fff;
+    
+  /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+
+.main-visual .slide-ver01 .swiper-slide img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+
+.main-visual .slide-ver01 .swiper-button-prev{color: #fff;}
+.main-visual .slide-ver01 .swiper-button-next{color: #fff;}
+.main-visual .slide-ver01 .swiper-pagination-01{bottom: 40px !important;}
+.main-visual .slide-ver01 .swiper-pagination-01 .swiper-pagination-bullet{width: 19%; height: 4px; border-radius: 0;}
+.main-visual .slide-ver01 .swiper-pagination-01 .swiper-pagination-bullet-active{background: #fff;}
+.main-visual .slide-ver01 .bg-layer{position: absolute; width: 100%;height: 100%;background: rgba(0,0,0,0.1);top: 0;left: 0;}
+
+
+
+
+/* Best Area ------------------------------------------------------------------*/
+.best{ 
+    width: 100%;
+    height: 100vh;
+}
+.best .inner{}
+.best .inner h3{
+    z-index: 50px;
+    top: 50px;}
+.slide-ver02 .inner .swiper{width: 100%; height: 100%;}
+.slide-ver02 .inner .swiper .swiper-slide{
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+.slide-ver02 .inner .swiper .swiper-slide img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+
+.slide-ver02 .inner .swiper .swiper-pagination-bullet{
+    width: 40px;
+    height: 4px;
+    border-radius: 0;
+}
+
+.slide-ver02 .inner .swiper .swiper-pagination-bullet-active{
+    background: #333;
+}
+
+/* Womon Area ------------------------------------------------------------------*/
+.womon{
+    width: 100%;
+    height: 100vh;
+}
+.womon .inner{position:relative; }
+.womon .inner .main-text{position: absolute;top: 300px; left:180px;}
+.womon .inner .main-text h3{margin-bottom: 20px;}
+.womon .inner .main-text a.btn{}
+.womon .bg-layer{position: absolute; width: 100%;height: 100%;background: rgba(0,0,0,0.4);top: 0;left: 0;}
+
+
+/* Men Area ------------------------------------------------------------------*/
+.men{
+    width: 100%;
+    height: 100vh;
+}
+.men .inner{position:relative;}
+.men .inner .main-text{position: absolute;top: 250px; left:180px;}
+.men .inner .main-text h3{margin-bottom: 20px;}
+.men .main-text a.btn{}
+
+.men .bg-layer{position: absolute; width: 100%;height: 100%;background: rgba(0,0,0,0.4);top: 0;left: 0;}
+
+
+/* Kids Area ------------------------------------------------------------------*/
+.kids{
+    width: 100%;
+    height: 100vh;}
+
+.kids .inner{position:relative;}
+.kids .inner .main-text{position: absolute;top: 300px; left:180px;}
+.kids .inner .main-text h3{margin-bottom: 20px;}
+.kids .main-text a.btn{}
+
+.kids .bg-layer{position: absolute; width: 100%;height: 100%;background: rgba(0,0,0,0.4);top: 0;left: 0;}
+
+
+/* Gift Area ------------------------------------------------------------------*/
+.gift{}
+.gift .inner{top: 50px;}
+.gift .inner p{font-size: 40px; text-align: center; margin-bottom: 70px;}
+.gift .inner .img-box{display: flex;}
+.gift .img-box-left{margin-right: 20px; position: relative;}
+.gift .img-box-left a img{width: 590px;}
+.gift .img-box-left a.btn{position: absolute; top: 50%; left: 50%; margin-top: -20px; margin-left: -60px;}
+
+.gift .img-box-right{position: relative;left:0px;}
+.gift .img-box-right a img{width: 590px;}
+.gift .img-box-right a.btn{position: absolute; top: 50%; left: 50%; margin-top: -20px;
+margin-left: -60px;}
+
+
+
+/* Insider Area ------------------------------------------------------------------*/
+.inside{
+    width: 100%;
+    height: 100vh;}
+.inside .inner{}
+.inside .inner .main-text{position: relative; z-index:100;}
+.inside .inner .main-text h3{margin-bottom: 20px;}
+.inside .inner .main-text p{color: #fff; font-size: 30px; font-weight: 100; margin-bottom: 20px;}
+.inside .inner .main-text a.btn{}
+
+.inside .bg-layer{position: absolute; width: 100%;height: 100%;background: rgba(0,0,0,0.7);top: 0;left: 0;}
+
+
+/* Footer Area ------------------------------------------------------------------*/
+footer{
+    background: #333;
+    color: #ccc;
+    min-width: 1200px;
+    margin: auto;
+}
+footer .inner{
+    padding: 40px 0 60px;
+    min-width: 1200px;
+    background: rosybrown;
+}
+footer .inner .menu-left{}
+footer .inner .menu-left ul.menu{  
+    display: flex;
+    justify-content: center;
+}
+footer .inner .menu-left ul.menu li{
+    position: relative;
+}
+footer .inner .menu-left ul.menu li h4{}
+footer .inner .menu-left ul.menu li ul.sub-menu{}
+footer .inner .menu-left ul.menu li ul.sub-menu li{}
+footer .inner .menu-left ul.menu li ul.sub-menu li a{}
+
+
+footer .inner .menu-right{}
+footer .inner .menu-right div{}
+footer .inner .menu-right div h4{}
+footer .inner .menu-right div a.btn{}
+
+footer .inner .menu-right h4{}
+footer .inner .menu-right h4 form{}
+footer .inner .menu-right h4 form input{}
+footer .inner .menu-right h4 form a{}
+
+footer .inner p{}
+footer .inner p.this-year{}
+
+footer .inner div.footer-etc{text-align: center;}
+footer .inner div.footer-etc p{}
+footer .inner div.footer-etc .footer-information{margin-top:20px;}
+footer .inner div p address{}
+footer .inner div p address span{}
+
+
