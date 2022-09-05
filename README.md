@@ -19,10 +19,6 @@
 <br>
 <br>
 
-## 🔍 Overview
-<br>
-<br>
-
 ## 🛠 사용 기술 : 
 ### 1. 검색 최적화를 위한 오픈그래프(The Open Graph protocol)
 웹 페이지가 `소셜 미디어(페이스북)` 등 공유될 때 우선적으로 활용되는 정보를 지정
@@ -37,6 +33,7 @@ og:url: 페이지 주소(URL)
 ```
 <br>
 <br>
+
 ### 2. SEO (검색 엔진 최적화, Search Engine Optimization)
 
 ```html
@@ -45,11 +42,12 @@ og:url: 페이지 주소(URL)
 ```
 <br>
 <br>
+
 ### 3. 사용폰트 : 나눔고딕
 구글폰트  사용
 ```html
-<link rel="preconnect" href="https://fonts.gstatic.com" />
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
 ```
 <br>
 <br>
@@ -62,7 +60,7 @@ og:url: 페이지 주소(URL)
 <br>
 <br>
 
-### 7. Fullpage 스크립트를 이용해 스크롤 시, 페이지 단위로 움직이게하기
+### 5. Fullpage 스크립트를 이용해 스크롤 시, 페이지 단위로 움직이게하기
 
 화면은 풀로 꽉 차고, 스크롤 바는 없으며, 조금만 스크롤을 내려도 다음 섹션으로 페이지 단위로 넘어가게
 깔끔하게 제작
@@ -70,9 +68,10 @@ og:url: 페이지 주소(URL)
 <br>
 <br>
 
-### 8. Swiper Slider
+### 6. Swiper Slider
 메인 슬라이드 이미지를 Swiper slider를 사용
-```<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+```html
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 ```
 
