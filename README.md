@@ -4,7 +4,10 @@
 <br>
 <br>
 <br>
+
 # 프로젝트명 : FENDI Clone Coding
+<br>
+<br>
 
 ## ✨ Description
 펜디는 여성, 남성, 키즈 상품을 판매하는 명품 브랜드 입니다.
@@ -15,7 +18,7 @@
 <br>
 <br>
 
-## 🛠 사용한 기술스택 : hHTML, CSS, Javascript
+## 🛠 사용한 기술스택 : HTML, CSS, jQuery, Javascript
 <br>
 <br>
 
