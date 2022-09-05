@@ -42,8 +42,8 @@ og:url: 페이지 주소(URL)
 ### 2. SEO (검색 엔진 최적화, Search Engine Optimization)
 
 ```html
-	<meta property="og:image" content="./images/fendi-watches-logo-w-1.png" />
-	<meta property="twitter:image" content="./images/fendi-watches-logo-w-1.png" />
+<meta property="og:image" content="./images/fendi-watches-logo-w-1.png" />
+<meta property="twitter:image" content="./images/fendi-watches-logo-w-1.png" />
 ```
 <br>
 <br>
@@ -51,8 +51,8 @@ og:url: 페이지 주소(URL)
 ### 3. 사용폰트 : 나눔고딕
 구글폰트  사용
 ```html
-	<link rel="preconnect" href="https://fonts.gstatic.com" />
-	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
 ```
 <br>
 <br>
@@ -60,7 +60,7 @@ og:url: 페이지 주소(URL)
 ### 4. 아이콘 : Swiper slide
 
 ```html
-	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 ```
 <br>
 <br>
@@ -76,8 +76,8 @@ og:url: 페이지 주소(URL)
 ### 6. Swiper Slider
 메인 슬라이드 이미지를 Swiper slider를 사용
 ```html
-	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 ```
 
 
