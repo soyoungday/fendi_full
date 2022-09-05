@@ -60,23 +60,19 @@ og:url: 페이지 주소(URL)
 ```
 <br>
 <br>
-### 5. lodash를 활용하여 scroll함수 제어하기
 
-scroll이벤트가 계속 실행되면 사이트가 무거워 질 수 있으므로 이런 부분을 제어 할 수 있는 플러그인이 lodash를 사용
-
-<br>
-<br>
-### 6. Fullpage 스크립트를 이용해 스크롤 시, 페이지 단위로 움직이게하기
+### 7. Fullpage 스크립트를 이용해 스크롤 시, 페이지 단위로 움직이게하기
 
 화면은 풀로 꽉 차고, 스크롤 바는 없으며, 조금만 스크롤을 내려도 다음 섹션으로 페이지 단위로 넘어가게
 깔끔하게 제작
 
 <br>
 <br>
-### 7. Swiper Slider
+
+### 8. Swiper Slider
+메인 슬라이드 이미지를 Swiper slider를 사용
 ```<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 ```
 
 
-메인 슬라이드 이미지를 Swiper slider를 사용
