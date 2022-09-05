@@ -4,10 +4,10 @@
 <br>
 <br>
 <br>
- # 프로젝트명 : FENDI Clone Coding
-✨ Description
-펜디는 여성, 남성, 키즈 상품을 판매하는 명품 브랜드 입니다.
+# 프로젝트명 : FENDI Clone Coding
 
+## ✨ Description
+펜디는 여성, 남성, 키즈 상품을 판매하는 명품 브랜드 입니다.
 ## 제작기간 : 5일
 ## 사용한 기술스택 : hHTML, CSS, Javascript
 ## 사용 기술 : 
