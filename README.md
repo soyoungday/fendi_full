@@ -18,7 +18,8 @@
 <br>
 <br>
 
-## 🛠 사용한 기술스택 : HTML, CSS, jQuery, Javascript
+## 🛠 사용한 기술스택 : 
+### HTML, CSS, jQuery, Javascript
 <br>
 <br>
 
