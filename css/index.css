@@ -6,7 +6,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 1.4;
-    font-family: "맑은 고딕";
+    font-family: "나눔고딕";
 }
 
 /* 공통 스타일 정의 */
@@ -381,7 +381,7 @@ footer .inner .menu-right h4 form a{}
 footer .inner p{}
 footer .inner p.this-year{}
 
-footer .inner div.footer-etc{text-align: center;}
+footer .inner .footer-etc{text-align: center;}
 footer .inner div.footer-etc p{}
 footer .inner div.footer-etc .footer-information{margin-top:20px;}
 footer .inner div p address{}
