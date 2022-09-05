@@ -237,7 +237,8 @@ header div.sub-menu-right nav ul li a img{}
 .best .inner{}
 .best .inner h3{
     z-index: 50px;
-    top: 50px;}
+    top: 50px;
+}
 .slide-ver02 .inner .swiper{width: 100%; height: 100%;}
 .slide-ver02 .inner .swiper .swiper-slide{
         text-align: center;
@@ -316,7 +317,7 @@ header div.sub-menu-right nav ul li a img{}
 /* Gift Area ------------------------------------------------------------------*/
 .gift{}
 .gift .inner{top: 50px;}
-.gift .inner p{font-size: 40px; text-align: center; margin-bottom: 70px;}
+.gift .inner p{font-size: 40px; text-align: center; margin-bottom: 70px; color: #fff;}
 .gift .inner .img-box{display: flex;}
 .gift .img-box-left{margin-right: 20px; position: relative;}
 .gift .img-box-left a img{width: 590px;}
@@ -343,48 +344,46 @@ margin-left: -60px;}
 
 
 /* Footer Area ------------------------------------------------------------------*/
-footer{
+.footer{
     background: #333;
-    color: #ccc;
-    min-width: 1200px;
-    margin: auto;
 }
-footer .inner{
-    padding: 40px 0 60px;
-    min-width: 1200px;
-    background: rosybrown;
-}
-footer .inner .menu-left{}
-footer .inner .menu-left ul.menu{  
-    display: flex;
-    justify-content: center;
-}
-footer .inner .menu-left ul.menu li{
+.footer .inner{
+    top: 100px;
+    height: 60%;
     position: relative;
+
 }
-footer .inner .menu-left ul.menu li h4{}
-footer .inner .menu-left ul.menu li ul.sub-menu{}
-footer .inner .menu-left ul.menu li ul.sub-menu li{}
-footer .inner .menu-left ul.menu li ul.sub-menu li a{}
+
+.footer .inner .menu-left ul.menu{ 
+    display:flex; 
+    height: 300px;
+    position:absolute;top:0;left:0;
+    border-right: 1px solid #fff;
+}
+.footer .inner .menu-left ul.menu li{ width:300px;}
+.footer .inner .menu-left ul.menu li h4{font-weight: 500;    color: #fff;}
+.footer .inner .menu-left ul.menu li ul.sub-menu{margin-top: 20px; }
+.footer .inner .menu-left ul.menu li ul.sub-menu li{margin-bottom:10px;}
+.footer .inner .menu-left ul.menu li ul.sub-menu li a{font-weight: 100; color: #fff;}
 
 
-footer .inner .menu-right{}
-footer .inner .menu-right div{}
-footer .inner .menu-right div h4{}
-footer .inner .menu-right div a.btn{}
+.footer .inner .menu-right{position:absolute;top:0;right:0;}
+.footer .inner .menu-right div h4{font-weight: 500; color: #fff;}
+.footer .inner .menu-right div a.btn{float: left; margin-right: 20px;margin-top: 20px;}
 
-footer .inner .menu-right h4{}
-footer .inner .menu-right h4 form{}
-footer .inner .menu-right h4 form input{}
-footer .inner .menu-right h4 form a{}
+.footer .inner .menu-right div.menu-right-news{clear: both; padding-top: 100px;}
+.footer .inner .menu-right form input{margin-top: 20px;width: 200px;height:40px;}
+.footer .inner .menu-right form a{
+   font-size: 14px; padding:9px 20px 9px 20px;  color: #fff;font-weight: 400;margin-left: 10px; border: 2px solid  #fff;}
 
-footer .inner p{}
-footer .inner p.this-year{}
+.footer .inner p{color: #fff;}
+.footer .inner .footer-etc{ width:100%; border-top: 1px solid #fff;
+    position:absolute;bottom: 62px;right:0px; margin: 0 auto;
+text-align: center;    color: #fff;font-weight: 100; line-height: 1.5;}
+.footer .inner .footer-etc .footer-copy{padding-top: 40px;}
 
-footer .inner .footer-etc{text-align: center;}
-footer .inner div.footer-etc p{}
-footer .inner div.footer-etc .footer-information{margin-top:20px;}
-footer .inner div p address{}
-footer .inner div p address span{}
+.footer .inner div.footer-etc .footer-information{margin-top:20px;}
+.footer .inner div.footer-etc .footer-information a{color: #fff;}
+
 
 

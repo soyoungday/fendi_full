@@ -3,11 +3,15 @@
 *{margin: 0;padding: 0;box-sizing: border-box;list-style: none;}
 section{width: 100%;height: 100vh;}
 div section:nth-child(1){}
-div section:nth-child(3){background: url(../images/image02.png)no-repeat;
+div section:nth-child(2){background: url(../images/image02.png)no-repeat;
     background-size: cover;}
-div section:nth-child(4){background: url(../images/image03.png)no-repeat;
+div section:nth-child(3){background: url(../images/image03.png)no-repeat;
     background-size: cover;}
-div section:nth-child(5){background: url(../images/image04.png)no-repeat;
+div section:nth-child(4){background: url(../images/image04.png)no-repeat;
     background-size: cover;}
-div section:nth-child(7){background: url(../images/image05.png)no-repeat;
+div section:nth-child(5){background: url(../images/image05.png)no-repeat;
+    background-size: cover;}
+div section:nth-child(6){background: url(../images/image06.png)no-repeat;
+    background-size: cover;}
+div section:nth-child(7){background: url(../images/image07.png)no-repeat;
     background-size: cover;}
