@@ -69,6 +69,23 @@ og:url: 페이지 주소(URL)
 
 화면은 풀로 꽉 차고, 스크롤 바는 없으며, 조금만 스크롤을 내려도 다음 섹션으로 페이지 단위로 넘어가게
 깔끔하게 제작
+```script
+		$(document).ready(function () {
+			$('#fullpage').fullpage({
+				autoScrolling: true,
+				scrollHorizontally: true,
+				verticalCentered: true,
+				css3: false,
+				scrollingSpeed: 800,
+				lockAnchors: true,
+				//        anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
+				//        navigation: true,
+				//        navigationPosition: 'left',
+				//        navigationTooltips: ['MAIN', 'ABOUT', 'PANDORA', 'WOOAMI', 'WINE ART', 'ARTWORK', 'CONTACT'],
+				showActiveTooltip: true
+			});
+		});
+	script```
 
 <br>
 <br>
