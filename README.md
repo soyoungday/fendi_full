@@ -1,4 +1,4 @@
-[
+
 
 [![펜디](https://soyoungday.github.io/fendi_full/images/fendi-watches-logo-w-1.png)](https://soyoungday.github.io/fendi_full/)
 <br>
