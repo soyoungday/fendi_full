@@ -1,8 +1,9 @@
 
 
-[![펜디](https://soyoungday.github.io/fendi_full/images/fendi-watches-logo-w-1.png)(https://soyoungday.github.io/fendi_full/)
-
-
+[![펜디](https://soyoungday.github.io/fendi_full/images/fendi-watches-logo-w-1.png)](https://soyoungday.github.io/fendi_full/)
+<br>
+<br>
+<br>
  # 프로젝트명 : FENDI Clone Coding
 
 ## 제작기간 : 5일
@@ -23,8 +24,8 @@ og:url: 페이지 주소(URL)
 ### 2. SEO (검색 엔진 최적화, Search Engine Optimization)
 
 ```html
-<meta property="og:image" content="./images/starbucks_seo.jpg" />
-<meta property="twitter:image" content="./images/starbucks_seo.jpg" />
+	<meta property="og:image" content="./images/fendi-watches-logo-w-1.png" />
+	<meta property="twitter:image" content="./images/fendi-watches-logo-w-1.png" />
 ```
 
 ### 3. 사용폰트 : 나눔고딕
