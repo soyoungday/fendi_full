@@ -93,64 +93,79 @@
 				</div>
 			</header>
 			<!-- Main Visual Area --------------------------------------------------------------------->
-
 			<div class="main-visual">
-
 				<div class="inner">
-					<div class="main-text">
-						<h3>2022여성 가을/겨울</h3>
-						<a href="javascript:void(0)" class="btn">자세히보기</a>
-					</div>
+				  <div class="main-text">
+					<h3>2022여성 가을/겨울</h3>
+					<a href="javascript:void(0)" class="btn">자세히보기</a>
+				  </div>
 				</div>
 				<div class="main-slide slide-ver01">
-					<div class="swiper mySwiper">
-						<!-- Additional required wrapper -->
-						<div class="swiper-wrapper">
-							<!-- Slides -->
-							<!--
-							<div class="swiper-slide">
-								<video muted autoplay loop class="slide">
-									<source
-										src="https://static.fendi.com/cms/resource/blob/615618/5fc08bf3c32c208983a9003482a2d742/fendi-massive-drop-14072022-data.mp4"
-										type="video/mp4">
-								</video>
-                            </div>
--->
-							<div class="swiper-slide"><img src=".//images/main-visual-1.png" alt="img1" /></div>
-							<div class="swiper-slide"><img src=".//images/main-visual-2.png" alt="img2" /></div>
-							<div class="swiper-slide"><img src=".//images/main-visual-3.png" alt="img3" /></div>
+				  <div class="swiper mySwiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+					  <!-- Slides -->
+	  
+					  <div class="swiper-slide">
+						<div class="youtube__area">
+						  <div id="player"></div>
 						</div>
-						<!-- If we need navigation buttons -->
-						<div class="swiper-button-prev swiper-button-next-01"></div>
-						<div class="swiper-button-next swiper-button-next-01"></div>
-
-						<!-- If we need pagination -->
-						<div class="swiper-pagination swiper-pagination-01"></div>
-						<div class="bg-layer"></div>
+						<div class="youtube__cover"></div>
+					  </div>
+	  
+					  <div class="swiper-slide">
+						<img src=".//images/main-visual-1.png" alt="img1" />
+					  </div>
+					  <div class="swiper-slide">
+						<img src=".//images/main-visual-2.png" alt="img2" />
+					  </div>
+					  <div class="swiper-slide">
+						<img src=".//images/main-visual-3.png" alt="img3" />
+					  </div>
+	  
 					</div>
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev swiper-button-next-01"></div>
+					<div class="swiper-button-next swiper-button-next-01"></div>
+	  
+					<!-- If we need pagination -->
+					<div class="swiper-pagination swiper-pagination-01"></div>
+					<!-- <div class="bg-layer"></div> -->
+				  </div>
 				</div>
-			</div>
-		</section>
+			  </div>
+			</section>
 		<!-- Best Area --------------------------------------------------------------------->
 		<section class="section best slide-ver02">
 			<div class="inner">
-				<h3>BEST</h3>
-
-				<div class="swiper mySwiper mySwiper-02">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide"><img src=".//images/best-01.jpg" alt="img1" /></div>
-						<div class="swiper-slide"><img src=".//images/best-02.jpg" alt="img2" /></div>
-						<div class="swiper-slide"><img src=".//images/best-03.png" alt="img3" /></div>
-						<div class="swiper-slide"><img src=".//images/best-04.jpg" alt="img4" /></div>
-						<div class="swiper-slide"><img src=".//images/best-05.jfif" alt="img5" /></div>
-						<div class="swiper-slide">Slide 2</div>
-					</div>
-					<div class="swiper-button-next swiper-button-next-02"></div>
-					<div class="swiper-button-prev swiper-button-prev-02"></div>
-					<div class="swiper-pagination swiper-pagination-02"></div>
-				
+			  <h3>BEST</h3>
+	
+			  <div class="swiper mySwiper mySwiper-02">
+				<div class="swiper-wrapper">
+				  <div class="swiper-slide">
+					<img src=".//images/best-01.png" alt="img1" />
+				  </div>
+				  <div class="swiper-slide">
+					<img src=".//images/best-02.png" alt="img2" />
+				  </div>
+				  <div class="swiper-slide">
+					<img src=".//images/best-03.png" alt="img3" />
+				  </div>
+				  <div class="swiper-slide">
+					<img src=".//images/best-04.png" alt="img4" />
+				  </div>
+				  <div class="swiper-slide">
+					<img src=".//images/best-05.png" alt="img5" />
+				  </div>
 				</div>
+
+				<div class="swiper-button-next swiper-button-next-02"></div>
+				<div class="swiper-button-prev swiper-button-prev-02"></div>
+				<div class="swiper-pagination swiper-pagination-02"></div>
+			  </div>
+        
 			</div>
+		  </section>
 
 
 		</section>
@@ -299,29 +314,63 @@
 	</div>
 
 
+    <!-- swiperSlider -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="js/youtube.js"></script>
+    <script>
+      new Swiper(".main-visual .swiper", {
+        direction: "horizontal",
+        slidesPerView: 1, //한 번에 보여줄 슬라이드 개수
+        loop: true,
+        autoplay: false,
+        navigation: {
+          // 슬라이드 이전/다음 버튼 사용 여부
+          prevEl: ".swiper-button-prev", // 이전 버튼 선택자
+          nextEl: ".swiper-button-next", // 다음 버튼 선택자
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/fullpage.min.js"></script>
-	<script>
-		$(document).ready(function () {
-			$('#fullpage').fullpage({
-				autoScrolling: true,
-				scrollHorizontally: true,
-				verticalCentered: true,
-				css3: false,
-				scrollingSpeed: 800,
-				lockAnchors: true,
-				//        anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
-				//        navigation: true,
-				//        navigationPosition: 'left',
-				//        navigationTooltips: ['MAIN', 'ABOUT', 'PANDORA', 'WOOAMI', 'WINE ART', 'ARTWORK', 'CONTACT'],
-				showActiveTooltip: true
-			});
-		});
+      new Swiper(".best .swiper", {
+        direction: "horizontal",
+        slidesPerView: 1, //한 번에 보여줄 슬라이드 개수
+        loop: true,
+        autoplay: true,
+        navigation: {
+          // 슬라이드 이전/다음 버튼 사용 여부
+          prevEl: ".swiper-button-prev", // 이전 버튼 선택자
+          nextEl: ".swiper-button-next", // 다음 버튼 선택자
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
 
-	</script>
-	<script src="js/swiper-slide.js"></script>
-	<script src="js/swiper-slide-02.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/fullpage.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#fullpage").fullpage({
+          autoScrolling: true,
+          scrollHorizontally: true,
+          verticalCentered: true,
+          css3: false,
+          scrollingSpeed: 800,
+          lockAnchors: true,
+          //        anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
+          //        navigation: true,
+          //        navigationPosition: 'left',
+          //        navigationTooltips: ['MAIN', 'ABOUT', 'PANDORA', 'WOOAMI', 'WINE ART', 'ARTWORK', 'CONTACT'],
+          showActiveTooltip: true,
+        });
+      });
+    </script>  
+
 </body>
 
 </html>

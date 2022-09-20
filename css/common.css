@@ -6,12 +6,12 @@ div section:nth-child(1){}
 div section:nth-child(2){background: url(../images/image02.png)no-repeat;
     background-size: cover;}
 div section:nth-child(3){background: url(../images/image03.png)no-repeat;
-    background-size: cover;}
+    background-size: cover ;}
 div section:nth-child(4){background: url(../images/image04.png)no-repeat;
-    background-size: cover;}
+    background-size: cover ;}
 div section:nth-child(5){background: url(../images/image05.png)no-repeat;
-    background-size: cover;}
+    background-size: cover ;}
 div section:nth-child(6){background: url(../images/image06.png)no-repeat;
-    background-size: cover;}
+        background-size: cover ;}
 div section:nth-child(7){background: url(../images/image07.png)no-repeat;
-    background-size: cover;}
+            background-size: cover ;}
