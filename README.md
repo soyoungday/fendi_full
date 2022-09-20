@@ -5,7 +5,7 @@
 <br>
 <br>
 
-# 프로젝트명 : FENDI Clone Coding
+# 프로젝트명 : FENDI Redesign + Coding
 <br>
 <br>
 
